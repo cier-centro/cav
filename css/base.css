@@ -20,3 +20,48 @@ h3{margin:0px;}
 .central-paragraph{
   padding: 50px 5px 10px 5px;
 }
+
+.btn-danger {
+  background: #FF5A44;
+}
+
+.btn-danger {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.btn-danger div {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.container-media {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container-media .media {
+  margin: 5px 0;
+}
+
+.container-media .media {
+  border-bottom: 1px solid #a9a9ab;
+}
+
+.container-media .media:first-child {
+  padding: 0 0 10px;
+}
+
+.container-media .media:last-child {
+  border-bottom: none;
+}
+
+.arrow-icon {
+  width: 60px;
+  height: 60px;
+  float: right;
+  background: url('../img/arrow_icon.png');
+  display: block;
+}

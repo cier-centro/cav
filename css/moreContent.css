@@ -44,7 +44,14 @@
     .center-text {
         margin-top: 80px;
     }
+
+    .more-content {
+        background: url('../img/more_content_background_short.png') #001A27 no-repeat center center / auto 100%;
+        color: white;
+        border-bottom: 3px solid #001A27;
+    }
 }
+
 @media (min-width: 768px) {
     .more-content > div {
         display: flex;
