@@ -1,0 +1,42 @@
+footer {
+    height: auto !important;
+    background-color: #004F5E !important;
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    color: #2fACC7;
+    font-size: 16px;
+}
+
+.copyright-footer {
+    text-align: center;
+}
+
+.right-logos {
+    display: flex;
+    align-items: center;
+    float: right !important;
+}
+
+.unal-logo {
+    height: 70px;
+    background: url('../img/unal_logo.png') no-repeat center center / contain;
+}
+
+.cier-logo {
+    height: 50px;
+    background: url('../img/cier_logo.png') no-repeat center center / contain;
+}
+
+@media (min-width: 992px) {
+    .unal-logo, .cier-logo {
+        height: 70px;
+    }
+
+    .copyright-footer {
+        margin-top: 46px;
+    }
+
+    .copyright-footer {
+        text-align: left;
+    }
+}
