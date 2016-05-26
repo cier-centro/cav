@@ -22,10 +22,10 @@ h3{margin:0px;}
   background-color:#EAEAEA;
 }
 
-.center-content video{
-  width: 100%;
+.center-content iframe{
+  /*width: 100%;*/
   /*height: 225px;*/
-  margin:40px 5px 20px 5px;
+  margin:60px 5px 20px 5px;
 }
 
 .central-paragraph{

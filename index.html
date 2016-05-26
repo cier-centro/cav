@@ -37,16 +37,19 @@
         <div class="row center-content">
             <div class="container">
                 <div class="col-md-5 col-lg-6">
-                    <video id="video" preload="auto"  controls="controls"  class="">
+									<div class="embed-responsive embed-responsive-16by9">
+										<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vQzfb16Nhw8" frameborder="0" allowfullscreen></iframe>
+                    <!--<video id="video" preload="auto"  controls="controls"  class="">
                         <source src="media/cavfinaljueves.mp4" type="video/mp4">
-                    </video>
+                    </video>-->
+									</div>
                 </div>
                 <div class="col-md-3 central-paragraph">
                     <h4>¿Qué es el Centro Virtual de Atención Pedagógica - CAV?</h4>
                     <p>El CAV es una herramienta que presta acompañamiento pedagógico a 300 instituciones educativas del proyecto Colegio 10TIC y 500 del programa Jornada Única, en la utilización de los recursos educativos digitales del portal Colombia Aprende.</p>
                 </div>
                 <div class="col-md-4 col-lg-3">
-                    <a href="http://cav.ciercentro.edu.co/" class="btn btn-danger"><div>Ingresa aquí a la</br><b>MESA DE AYUDA</b></div><span class="arrow-icon"></span></a>
+                    <a id="btnSuport" href="http://cav.ciercentro.edu.co/support/home" class="btn btn-danger"><div>Ingresa aquí a la</br><b>MESA DE AYUDA</b></div><span class="arrow-icon"></span></a>
                     <label>Otros canales de atención:</label>
                     <div class="container-media">
                         <div class="media">
@@ -118,7 +121,9 @@
 
         <script type="text/javascript">
             $(document).ready(function() {
-
+							$("#btnSuport").clic(function(e) {
+								prevent
+							});
             });
         </script>
     </body>
