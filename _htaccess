@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^cav\.ciercentro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cav\.ciercentro\.com$
+RewriteRule ^/?$ "http\:\/\/ciercentro\.edu\.co\/cav\/" [R=301,L]
+

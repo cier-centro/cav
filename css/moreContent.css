@@ -40,6 +40,11 @@
     background: url('../img/more_content_right_image.png') no-repeat center 100% / contain;
 }
 
+.share-video img {
+    width: 100%;
+    padding: 10% 5% 0;
+}
+
 @media (max-width: 767px) {
     .center-text {
         margin-top: 80px;
