@@ -78,3 +78,12 @@ h3{margin:0px;}
   background: url('../img/arrow_icon.png');
   display: block;
 }
+
+.slide{
+    width: 92%;
+    margin: auto;
+    display: block;
+    background-color: rgba(0,0,0,0.1);
+    padding: 15px;
+}
+
