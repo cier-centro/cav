@@ -329,7 +329,7 @@
 
 			this.$stage.css(css);
 
-			css = { 'width': this.settings.autoWidth ? 'auto' : '260px' };
+			css = { 'width': this.settings.autoWidth ? 'auto' : width - this.settings.margin };
 			css[this.settings.rtl ? 'margin-left' : 'margin-right'] = this.settings.margin;
 
 			if (!this.settings.autoWidth && $.grep(this._mergers, function(v) { return v > 1 }).length > 0) {

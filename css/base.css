@@ -4,83 +4,83 @@ h1{margin:0px;}
 h2{margin:0px;}
 h3{margin:0px;}
 .header{
-  border-bottom: 5px solid #FB5A47;
-  -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
-  -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
-  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    border-bottom: 5px solid #FB5A47;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
 }
 
 .header-logos {
-  text-align: center;
+    text-align: center;
 }
 
 .header-logos img {
-  display: inline-block;
+    display: inline-block;
 }
 
 .center-content{
-  background-color:#EAEAEA;
+    background-color:#EAEAEA;
 }
 
 .center-content .embed-responsive {
-  /*width: 100%;*/
-  /*height: 225px;*/
-  margin:60px 5px 20px 5px;
+    /*width: 100%;*/
+    /*height: 225px;*/
+    margin:60px 5px 20px 5px;
 }
 
 .central-paragraph{
-  padding: 50px 5px 10px 5px;
+    padding: 50px 5px 10px 5px;
 }
 
 .btn-danger {
-  background: #FF5A44;
+    background: #FF5A44;
 }
 
 .btn-danger {
-  margin: 15px 0;
-  padding-top: 8px;
-  width: 100%;
-  text-align: left;
+    margin: 15px 0;
+    padding-top: 8px;
+    width: 100%;
+    text-align: left;
 }
 
 .btn-danger div {
-  display: inline-block;
-  font-size: 20px;
-  float: left;
+    display: inline-block;
+    font-size: 20px;
+    float: left;
 }
 
 .container-media {
-  background: white;
-  border-radius: 10px;
-  padding: 5px 5px 5px 5px;
+    background: white;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
 }
 
 .container-media .media {
-  margin: 5px 0;
+    margin: 5px 0;
 }
 
 .container-media .media {
-  border-bottom: 1px solid #a9a9ab;
+    border-bottom: 1px solid #a9a9ab;
 }
 
 .container-media .media:first-child {
-  padding: 0 0 10px;
+    padding: 0 0 10px;
 }
 
 .container-media .media:last-child {
-  border-bottom: none;
+    border-bottom: none;
 }
 
 .arrow-icon {
-  width: 60px;
-  height: 60px;
-  float: right;
-  background: url('../img/arrow_icon.png');
-  display: block;
+    width: 60px;
+    height: 60px;
+    float: right;
+    background: url(../img/arrow_icon.png);
+    display: block;
 }
 
 .slide{
-    width: 96%;
+    width: 99%;
     margin: auto;
     display: block;
     background-color: rgba(0,0,0,0.1);
@@ -91,4 +91,111 @@ h3{margin:0px;}
     -webkit-border-radius: 10px 10px 10px 10px;
     border: 0px solid #000000;
 }
+
+.button-secondary {
+    width: 20%;
+    text-align: left;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+}
+
+.button-secondary:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+.button-secondary span{
+    width: 60px;
+    height: 60px;
+    float: right;
+    background: url("../img/icon-secundary-button.png");
+    display: block;
+}
+.button-secondary div {
+    display: inline-block;
+    font-size: 20px;
+    float: left;
+}
+
+.button-secondary:nth-child(1) span {
+    background-position: -11px -17px;
+}
+.button-secondary:nth-child(2) span{
+    background-position: -11px -100px;
+}
+.button-secondary:nth-child(3) span{
+    background-position: -11px -188px;
+}
+
+.button-secondary:nth-child(1)  {
+    background: #FF5A44;
+}
+.button-secondary:nth-child(3),.button-secondary:nth-child(2) {
+    background: url("../img/bg-secundary-btn.png") repeat-x #00505F;
+}
+
+.seccion-carrusel{
+    margin: 15px;
+    text-align: center;
+}
+
+@media (max-width: 980px) {
+    .button-secondary {
+        width: 99%;
+        margin-top: 10px;
+    }
+}
+
+.secundary-header{
+    background: #00505F;
+    color: #FFFFFF;
+    font-family: "Futura Std";
+    font-size: 40px;
+    margin: auto;
+    padding: 30px;
+    width: 80%;
+}
+
+.secundary-header .arrow-icon {
+    width: 62px;
+    height: 68px;
+    float: right;
+    background: url(../img/icon-red-estudiantes.png);
+    display: block;
+    margin-top: -12px;
+}
+
+.banner-info{
+    width: 80%;
+    margin: 0 auto;
+    background: url(../img/banner-info.png);
+    height: 305px;
+    margin-top: 5px;
+}
+
+@media (max-width: 980px) {
+    .secundary-header {
+        width: 100%;
+    }
+    
+    .banner-info{
+        width: 100%;
+    }
+}
+
+.banner-info div{
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px 15px 15px 15px;
+    margin: 70px 0px 0px 40px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    font-family: "Myriad Pro";
+    color: #FFF;
+    font-size: 15px;
+    text-align: justify;
+    display: inline-block;
+}
+
+
 
