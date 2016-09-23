@@ -15,17 +15,6 @@ $(document).ready(function() {
             1000: {
                 items: 4
             }
-        },
-        
+        }
     });
-    
-    
-});
-$(document).compositionend(function() {
-    console.log("si esta perrito");    
-    $('.owl-item').append('<div id="MyDiv" style="background-color: red; width:20ox; heigth:20px;"></div>');
-});
-$(document).end(function() {
-    console.log("si esta perrito");    
-    $('.owl-item').append('<div id="MyDiv" style="background-color: red; width:20ox; heigth:20px;"></div>');
 });

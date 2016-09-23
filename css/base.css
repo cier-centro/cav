@@ -189,12 +189,13 @@ h3{margin:0px;}
 
 .first-carrusel{
     width: 80%;
-    height: 285px;
+    height: 310px;
     background: url(../img/bg-first-carrusel.png) repeat-x #8ADFFF;
     margin: 5px auto;
 }
 
 .title-seccion-carrusel{
+    text-align: left;
     background: #0080A1;
     color: #FFF;
     font-size: 14px;
@@ -262,7 +263,7 @@ h3{margin:0px;}
     
     .first-carrusel{
         width: 100%;
-        height: 340px;
+        height: 365px;
     }
     
     .second-carrusel{
