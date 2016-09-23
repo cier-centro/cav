@@ -136,8 +136,16 @@ h3{margin:0px;}
 }
 
 .seccion-carrusel{
-    margin: 15px 6px;
     text-align: center;
+    width: 60%;
+}
+
+.seccion-carrusel .first-carrusel{
+    height: 310px;
+}
+
+.seccion-carrusel .second-carrusel{
+    height: 310px;
 }
 
 .secundary-header{
