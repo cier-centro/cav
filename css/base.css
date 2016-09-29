@@ -122,7 +122,6 @@ h3{margin:0px;}
 }
 .button-secondary:nth-child(1)  {
     background: #FF5A44;
-    margin-left: 10px;
 }
 .button-secondary:nth-child(3),.button-secondary:nth-child(2) {
     background: url("../img/bg-secundary-btn.png") repeat-x #00505F;
@@ -282,10 +281,25 @@ h3{margin:0px;}
     .container-galery {
         padding: 5px 2%;
     }
+    .button-secondary:nth-child(1)  {
+      margin-left: 0px;
+    }
 }
 @media (min-width: 1500px) {
   .btns-container {
+    width: 52%;
+  }
+  .button-secondary:nth-child(1)  {
+    margin-left: 10px;
+  }
+
+}
+@media (min-width: 1600px) {
+  .btns-container {
     width: 49%;
+  }
+  .button-secondary:nth-child(1)  {
+    margin-left: 10px;
   }
 
 }
