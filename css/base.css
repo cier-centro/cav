@@ -242,15 +242,18 @@ h3{margin:0px;}
   padding:15px 0px;
 }
 .container-galery h3{
-  border-bottom: 1px solid #d0d0d0;
+  border-bottom: 1px solid #0080A1;
   margin-bottom: 10px;
   text-align: center;
-  margin: 0 -25px 10px -25px;
+  margin: 0 -10px 10px -10px;
 }
 .thumbnail{
   padding: 20px;
-  min-height: 350px;
-  background: #ececec;
+  height: 350px;
+  /*background: #ececec;*/
+  background: #8ADFFF;
+  border: 1px solid #0080A1;
+  overflow: auto;
 }
 .thumbnail:hover{
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
