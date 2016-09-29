@@ -1,11 +1,11 @@
 @charset "UTF-8";
-@font-face {
+/*@font-face {
     font-family: 'Futura-Medium';
     src: url('../fonts/Futura-Medium.eot') format('embedded-opentype'),
          url('../fonts/Futura-Medium.woff') format('woff'),
          url('../fonts/Futura-Medium.ttf')  format('truetype'),
          url('../fonts/Futura-Medium.svg') format('svg');
-}
+}*/
 body {margin: 0px; padding: 0px; font-family: 'Myriad Pro', 'Helvetica', 'Sans-Serif'; background-color:#ffffff; /*background:url("../img/bg-general.gif") no-repeat*/}
 h1{margin:0px;}
 h2{margin:0px;}
@@ -166,7 +166,7 @@ h3{margin:0px;}
     display: inline-block;
 }
 .first-carrusel{
-    width: 80%;
+      width: 80%;
     background: url(../img/bg-first-carrusel.png) repeat #8ADFFF;
     margin: 5px auto;
     min-height: 300px;
@@ -242,18 +242,15 @@ h3{margin:0px;}
   padding:15px 0px;
 }
 .container-galery h3{
-  border-bottom: 1px solid #0080A1;
+  border-bottom: 1px solid #d0d0d0;
   margin-bottom: 10px;
   text-align: center;
-  margin: 0 -10px 10px -10px;
+  margin: 0 -25px 10px -25px;
 }
 .thumbnail{
   padding: 20px;
-  height: 350px;
-  /*background: #ececec;*/
-  background: #8ADFFF;
-  border: 1px solid #0080A1;
-  overflow: auto;
+  min-height: 350px;
+  background: #ececec;
 }
 .thumbnail:hover{
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
@@ -284,4 +281,10 @@ h3{margin:0px;}
     .container-galery {
         padding: 5px 2%;
     }
+}
+@media (min-width: 1500px) {
+  .btns-container {
+    width: 50%;
+  }
+
 }
