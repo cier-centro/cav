@@ -166,7 +166,7 @@ h3{margin:0px;}
     display: inline-block;
 }
 .first-carrusel{
-    width: 94%;
+    width: 80%;
     background: url(../img/bg-first-carrusel.png) repeat #8ADFFF;
     margin: 5px auto;
     min-height: 300px;
@@ -195,7 +195,7 @@ h3{margin:0px;}
     background: #2F7D14;
 }
 .second-carrusel{
-    width: 94%;
+    width: 80%;
     background: url(../img/bg-second-carrusel.png) repeat #A7D933;
     margin: 0px auto 5px;
     min-height: 300px;
@@ -239,11 +239,10 @@ h3{margin:0px;}
   margin:0px auto;
 }
 .container-galery .row{
-  background: #ececec;
   padding:15px 0px;
 }
 .container-galery h3{
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #d0d0d0;
   margin-bottom: 10px;
   text-align: center;
   margin: 0 -25px 10px -25px;
@@ -251,16 +250,17 @@ h3{margin:0px;}
 .thumbnail{
   padding: 20px;
   min-height: 350px;
+  background: #ececec;
 }
 .thumbnail:hover{
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
-  -webkit-transition: all 500ms ease-out;
-  -moz-transition: all 500ms ease-out;
-  -ms-transition: all 500ms ease-out;
-  -o-transition: all 500ms ease-out;
-  transition: all 500ms ease-out;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
 }
 @media (max-width: 980px) {
     .secundary-header {
